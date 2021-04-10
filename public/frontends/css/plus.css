@@ -1,0 +1,274 @@
+.page-banner {
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 250px;
+	padding: 100px 0;
+}
+.btn-cs {
+	background: #748688;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 20px;
+    min-width: 180px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 10px 2px 10px;
+    border: none;
+   	-webkit-transition: all .5s linear;
+       -moz-transition: all .5s linear;
+        -ms-transition: all .5s linear;
+         -o-transition: all .5s linear;
+            transition: all .5s linear;
+}
+.btn-cs.btn-small {
+    font-size: 16px;
+    padding: 6px 15px;
+    line-height: 22px;
+    min-width: auto;
+}
+.btn-cs:hover, .btn-cs:focus {
+	background: var(--yellow);
+	color: #fff;
+}
+.btn-cs2 {
+	display: inline-block;
+	border: 2px solid var(--yellow);
+    border-radius: 5px;
+    font-size: 28px;
+    padding: 20px;
+    text-decoration: none;
+    color: #fff;
+    background: var(--yellow);
+    -webkit-transition: all .5s linear;
+       -moz-transition: all .5s linear;
+        -ms-transition: all .5s linear;
+         -o-transition: all .5s linear;
+            transition: all .5s linear;
+}
+.btn-cs2 i {margin: 0 5px;}
+.btn-cs2:hover, .btn-cs2:focus {
+	background-color: #748688;
+	color: #fff;
+}
+.btn-grey {
+    display: block;
+    background: #eaeaea;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 15px 0;
+}
+.btn-grey i {margin: 0 5px;}
+.btn-grey:hover, .btn-grey:focus {
+    background: #748688;
+    color: #fff;
+}
+.form-auth {
+	max-width: 520px;
+	width: 100%;
+    margin: 0 auto;
+}
+.form-auth label {
+    margin: 0;
+    font-weight: normal!important;
+    font-family: var(--font);
+}
+.form-auth .form-group {margin-bottom: 5px;}
+.bg-grey {
+    padding: 20px;
+    margin: 15px auto;
+    background-color: #eaeaea;
+    color: #000;
+    -webkit-transition: all .3s linear;
+       -moz-transition: all .3s linear;
+        -ms-transition: all .3s linear;
+         -o-transition: all .3s linear;
+            transition: all .3s linear;
+}
+.bg-grey2 {background: rgba(255,255,255,0.10); padding: 10px 15px;}
+.bg-grey3 {background: #cad8d5; padding: 10px 15px;}
+.dark-blue-bg {
+    color: #fff;
+    background: #748688;
+}
+.bg-orange {
+    background-color: var(--yellow)!important;
+    color: #fff!important;
+    padding: 15px 10px;
+}
+#form-forgot {max-width: 620px;}
+#form-register {max-width: 700px;}
+.form-auth table {width: 100%;}
+.form-auth .help-block {margin: 0 0 5px;}
+.form-auth .form-check-label a {
+    font-size: 15px;
+    line-height: 22px;
+    color: #cad8d5;
+}
+.form-auth a:hover, .form-auth a:focus {color: #748688;}
+.form-cs {
+	background: #748688;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+    text-align: left;
+    padding: 12px 15px;
+    margin: 2px;
+    width: 100%;
+}
+.forgot-pass {
+    color: #cad8d5;
+    text-decoration: none;
+    margin-top: 35px;
+    display: block;
+}
+.forgot-pass:hover, .forgot-pass:focus {color: #748688;}
+.alert ul {margin: 0;}
+#logo-menu .btn-cs2 {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    line-height: 22px;
+    padding: 5px 20px;
+    text-transform: uppercase;
+}
+#logo-menu .btn-cs2 img {
+    border-radius: 50%;
+    margin-right: 10px;
+    max-width: 25px;
+}
+.sec-title2 {
+    color: #0e0c0f;
+    margin: 0 0 20px;
+    border-left: 25px solid var(--yellow);
+    padding: 20px 5px 20px 15px;
+    font-family: var(--font);
+}
+#sidebar-acc {
+    -ms-flex: 0 0 28%;
+    flex: 0 0 28%;
+    max-width: 28%;
+}
+.content-acc {
+    -ms-flex: 0 0 72%;
+    flex: 0 0 72%;
+    max-width: 72%;
+}
+.nav-account {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.nav-account li {margin-bottom: 2px;}
+.nav-account a {
+    display: block;
+    line-height: 45px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 20px;
+    color: #fff;
+    background: #748688;
+    -webkit-transition: all .5s linear;
+       -moz-transition: all .5s linear;
+        -ms-transition: all .5s linear;
+         -o-transition: all .5s linear;
+            transition: all .5s linear;
+}
+.nav-account a:hover, .nav-account a:focus, .nav-account .active a {
+    color: #000;
+    background: #cad8d5;
+}
+.content-acc {padding-left: 15px;}
+.content-acc #form-update {margin-left: 0;}
+.content-acc table td a {display: block;}
+#acc-dashboard, #make-withdraw, #referral {
+    font-size: 20px;
+    line-height: 28px;
+}
+.info .bg-grey.username {
+    margin: 0;
+    flex: 0 1 75%;
+    max-width: 75%;
+    text-align: center;
+    padding: 10px 15px;
+    font-size: 26px;
+    line-height: 35px;
+}
+#acc-dashboard table, #chooseDeposit table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 2px;
+}
+#acc-dashboard .btn-cs2 {padding: 10px 25px;}
+.item-plan {
+    background: #fff;
+    -webkit-box-shadow: 0 0 20px rgba(0,0,0,.2);
+    box-shadow: 0 0 20px rgba(0,0,0,.2);
+    padding: 0;
+    margin: 8px 0px;
+    text-align: center;
+}
+.item-plan .wrap-thumb {
+    position: relative;
+    padding: 10px 10px 10px 55px;
+}
+.item-plan .plan-title {
+    position: absolute;
+    margin: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 54px;
+    padding: 10px 0;
+    font-size: 24px;
+    line-height: 54px;
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    background: #cad8d5;
+    -webkit-transform: rotate(180deg);
+       -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+         -o-transform: rotate(180deg);
+            transform: rotate(180deg);
+}
+.item-plan .rate {
+    font-size: 22px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.item-plan .rate span {
+    font-size: 65px;
+    line-height: 75px;
+    color: var(--yellow);
+    font-weight: 500;
+    display: block;
+    margin: 10px 0;
+    font-family: var(--bold);
+}
+.item-plan .deposit {
+    padding: 15px 0;
+    margin: 0;
+}
+#withdraw-detail table {
+    font-size: 18px;
+    line-height: 24px;
+}
+#make-withdraw table.table td {
+    padding: 0;
+    vertical-align: middle;
+}
+#make-withdraw table.table td.bg-grey2 {padding: 8px;}
+#make-withdraw .form-cs::-ms-input-placeholder, #make-withdraw .form-cs::-moz-placeholder,
+#make-withdraw .form-cs::placeholder,  #make-withdraw .form-cs::-webkit-input-placeholder {
+    color: #fff;
+    opacity: 1;
+}
+#make-withdraw .btn-cs {
+    font-size: 18px;
+    line-height: 25px;
+    padding: 10px 20px;
+}

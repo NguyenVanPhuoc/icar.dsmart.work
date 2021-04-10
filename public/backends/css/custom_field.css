@@ -1,0 +1,15 @@
+.add-field {
+    color: #f16622;
+}
+#fields.meta .item .btn {
+    margin-top: 28px;
+}
+#fields .btn-sm {
+    display: block;
+    background: #a7a5a5;
+    color: #f2f2f2;
+    height: 40px;
+    line-height: 40px;
+    padding:0;
+}
+#fields .btn-sm:hover{background: var(--red); border-color: var(--red);}
